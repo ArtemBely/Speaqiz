@@ -26,7 +26,7 @@ router.get('/', isLoggedIn, (req, res, next) => {
       `<!DOCTYPE html>
           <html>
               <head>
-                <title>hablando</title>
+                <title>Мой рейтинг</title>
                   <link rel="stylesheet" type="text/css" href="../main.css">
                    <link rel="shortcut icon" href="/images/astronaut-3.ico" type="image/x-icon">
                     <script src='/bundle.js' defer></script>

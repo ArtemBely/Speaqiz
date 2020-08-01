@@ -24,7 +24,7 @@ router.get('/', (req, res, next) => {
       `<!DOCTYPE html>
           <html>
               <head>
-                <title>hablando</title>
+                <title>Поиск учителя</title>
                   <link rel="stylesheet" type="text/css" href="../main.css">
                    <link rel="shortcut icon" href="/images/astronaut-3.ico" type="image/x-icon">
                    <meta name="viewport" content="width=device-width, initial-scale=1">
