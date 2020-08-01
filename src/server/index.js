@@ -37,6 +37,7 @@ import telegramRouter from './routes/telegram';
 //const MongoStore = require('connect-mongo')(session);
 const app = express();
 const CONNECTION_URI = process.env.MONGODB_URI;
+const port = process.env.PORT || 5000;
 
 require('dotenv/config');
 
@@ -221,4 +222,4 @@ app.use((req, res, next) => {  //<-- заменить если появится 
      next (err);
 });
 
-app.listen(8888, () => { console.log('Connected!'); })
+app.listen(port, () => { console.log('Connected!'); })
