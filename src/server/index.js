@@ -125,7 +125,7 @@ app.get('/', notLoggedIn, (req, res, next) => {
       `<!DOCTYPE html>
           <html>
               <head>
-                <title>Изучайте языки со speaqiz</title>
+                <title>Изучайте языки вместе со speaqiz</title>
                   <link rel="stylesheet" type="text/css" href="../main.css">
                   <link rel="shortcut icon" href="/images/astronaut-3.ico" type="image/x-icon">
                   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -182,7 +182,7 @@ app.get('*', (req, res, next) => {
     `<!DOCTYPE html>
         <html>
             <head>
-              <title>Изучайте языки со speaqiz</title>
+              <title>Изучайте языки вместе со speaqiz</title>
                 <link rel="stylesheet" type="text/css" href="../main.css">
                 <link rel="shortcut icon" href="/images/astronaut-3.ico" type="image/x-icon">
                 <meta name="viewport" content="width=device-width, initial-scale=1">

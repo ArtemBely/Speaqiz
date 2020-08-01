@@ -1,0 +1,8 @@
+User agent: *
+
+Allow: /public
+Allow: /src
+Disallow: /fonts
+Disallow: /public_back
+
+Sitemap: https://speaqiz.ru/sitemap.xml
