@@ -1,0 +1,355 @@
+@media (min-width: 1000px) and (max-width: 1200px) {
+  #thema2 {
+    width: 200px;
+    left: 34px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+  #timestamp {
+    left: 264px !important;
+    top: 18px;
+  }
+  #last {
+    left: 261px;
+    width: 100px;
+  }
+  .wrap_audio {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    left: 3%;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .teacher, .student {
+    font-size: 15px;
+    letter-spacing: 0;
+    height: 23px;
+    width: 135px;
+    top: 45px;
+  }
+  .navbar {
+    height: 120px;
+  }
+  .sign {
+    height: 23px;
+    font-size: 20px;
+    top: 45px;
+  }
+  .signin2 {
+    left: -200px;
+    top: -3px;
+    font-size: 15px;
+  }
+  .wrap_first {
+    top: 40px;
+    left: -90px;
+  }
+  #astro2 {
+    top: -200px;
+    width: 345px;
+  }
+  #opp {
+    font-size: 30px;
+  }
+  #for_students2 {
+    font-size: 20px;
+  }
+  .content_im {
+    font-size: 20px;
+  }
+  .pictures3 {
+    width: 67px;
+  }
+  .wr_st {
+    top: 40px;
+  }
+  #fin_te {
+    top: -30px;
+    width: 420px;
+    height: 39px;
+    font-size: 20px;
+  }
+  .sea  {
+    left: 57px;
+    width: 23px;
+    height: 23px;
+  }
+  #sear {
+    width: 20px;
+  }
+  #for_tea {
+    font-size: 20px;
+  }
+  .each_im_one {
+    font-size: 20px;
+  }
+  .sup_wr2 {
+    grid-gap: 45px 50px;
+  }
+  #cont {
+    font-size: 20px;
+  }
+  .com_im {
+    width: 25px;
+  }
+  #telephone1 {
+    font-size: 17px;
+    position: relative;
+    top: 2px;
+  }
+  #gmail {
+    font-size: 17px;
+  }
+  #vk, #tele_im {
+    width: 30px;
+  }
+  #fb {
+    left: -35px;
+  }
+  .contacts {
+    top: 15px;
+  }
+  #sendus {
+    font-size: 20px;
+  }
+  .tele {
+    top: 0;
+  }
+
+  .find_forma > input {
+    width: 500px;
+    height: 20px;
+  }
+  #but12 {
+    padding: 4px;
+    height: 50px;
+    font-size: 25px;
+  }
+  #teach_foryou, #teach_obso, #not_found {
+    font-size: 20px;
+  }
+  .darth {
+    height: 250px;
+    font-size: 20px;
+  }
+  #prof_search {
+    width: 180px;
+    height: 180px;
+    left: 30px;
+  }
+  .all_fields:nth-child(4) {
+    height: 85px;
+  }
+  #astro {
+    width: 345px;
+    top: 205px;
+  }
+  .iam {
+    font-size: 25px;
+    top: 20px;
+  }
+  .but1 {
+    font-size: 22px;
+  }
+  .form_teacher, .form_student {
+    top: 30px;
+  }
+  .wrap_err {
+    width: 38%;
+    position: absolute;
+    left: 53%;
+    top: 575px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 11px;
+    grid-gap: 10px;
+  }
+  .each_err {
+    height: auto;
+  }
+  .oops {
+    font-size: 25px;
+  }
+  .main_page {
+    font-size: 30px;
+  }
+  #alert2 {
+    width: 150px;
+  }
+  .prof_image {
+    width: 160px;
+    height: 160px;
+    left: -30px;
+  }
+  .marg {
+    font-size: 15px;
+    width: 230px;
+    top: -20px;
+  }
+  #bio2 {
+    height: 200px;
+    top: 0px;
+    left: 250px;
+    width: 67%;
+  }
+  .common2 {
+    top: -55px;
+    left: 190px;
+    width: 250px;
+    border: none;
+  }
+  .common {
+    left: -32px;
+  }
+  #logout {
+    position: relative;
+    top: -65px;
+    left: -100px;
+    color: white;
+    text-decoration: none;
+    background-color: #0083B0;
+    width: 70px;
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  .addphoto {
+    left: -30px;
+  }
+  #but3 {
+    font-size: 12px;
+    width: 160px;
+  }
+  .choose_photo {
+    left: -30px;
+  }
+  #close1 {
+    left: 48px;
+  }
+  #cha2 {
+    left: -59px !important;
+  }
+  .separate2 {
+    font-size: 15px;
+  }
+  .add1 {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  .add {
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+  }
+  #my {
+    left: 23%;
+    min-width: 175px;
+  }
+  #add_cl {
+    min-width: 215px;
+  }
+  .sep {
+    left: -4px;
+  }
+  #thema2 {
+    width: 200px;
+  }
+  .new_thema {
+    left: 0;
+    text-align: center;
+  }
+  .themes5 {
+    left: 0;
+  }
+  .wrap_themes2 {
+    width: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 20px;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .wrap_themes {
+    width: 200px;
+    left: 0;
+  }
+  #post_form2 > input {
+    width: 94.5%;
+    height: 20px;
+  }
+  #but5 {
+    height: 26px;
+    width: 100%;
+  }
+  #cancel2 {
+    left: 52px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1800px) {
+  #logout {
+    position: relative;
+    top: -65px;
+    left: -100px;
+    color: white;
+    text-decoration: none;
+    background-color: #0083B0;
+    width: 70px;
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  #my {
+    min-width: 250px;
+  }
+  .myraiting {
+    font-size: 25px;
+  }
+  .wrap_data2 {
+    font-size: 23px;
+  }
+  .wrap_myraiting {
+    left: -400px;
+  }
+  #review {
+    width: 130px;
+  }
+  #look {
+    font-size: 23px;
+    position: relative;
+    left: 21px;
+  }
+  .description, .description_student {
+    font-size: 25px;
+  }
+  .each_audio1 {
+    font-size: 22px;
+  }
+  .sla {
+    width: 80% !important;
+    left: 6%;
+    height: 80px;
+  }
+  .im_done {
+    width: 40px;
+  }
+  .ta {
+    left: 14px;
+    top: 54px;
+    position: absolute;
+  }
+  .wrap_audio {
+    grid-gap: 40px 0px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1600px) {
+  #thema2 {
+    width: 200px;
+  }
+  .new_thema {
+    text-align: center;
+  }
+}

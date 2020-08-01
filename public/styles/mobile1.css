@@ -1,0 +1,583 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  .sign {
+    width: 95px;
+    left: -14px;
+    top: 48px;
+    font-size: 15px;
+    height: 16px;
+    z-index: 1000;
+  }
+  .signin2 {
+    display: none;
+  }
+  .teacher {
+    width: 152px;
+    left: 25%;
+    height: 21px;
+    top: 166px;
+    font-size: 15px;
+    z-index: 1000;
+  }
+  .student {
+    width: 158px;
+    left: 24%;
+    height: 21px;
+    top: 232px;
+    font-size: 15px;
+    z-index: 1000;
+  }
+  .wrap_mainf {
+    width: 80%;
+    top: -133px;
+  }
+  #astro2 {
+    opacity: 0.1;
+    width: 345px;
+    top: -200px;
+    position: absolute;
+    left: -352px;
+  }
+  #bi2 {
+    line-height: 28px;
+    font-size: 20px;
+  }
+  #best2 {
+    font-size: 17px;
+  }
+  .find_te {
+    z-index: 1000;
+    top: 40px;
+    width: 230px;
+  }
+  .wrap_first {
+    left: 0;
+    width: 100%;
+    top: 20px;
+  }
+  .navbar {
+    height: 103px;
+    top: -141px;
+  }
+  #opp {
+    font-size: 20px;
+    text-align: center;
+  }
+  .pictures3 {
+    width: 55px;
+  }
+  .content_im {
+    font-size: 13px;
+    left: 0 !important;
+  }
+  #for_students2 {
+    font-size: 18px;
+    width: 200px;
+    left: 24%;
+  }
+  #blue_cont {
+    height: 120vh;
+  }
+  #lets_group, #lets_group2 {
+    left: 3px !important;
+  }
+  .wr_st {
+    left: -6px;
+    top: 30px;
+  }
+  #fin_te {
+    height: 40px;
+    width: 74%;
+    font-size: 12px;
+    top: -31px;
+    text-align: center;
+    left: 0 !important;
+  }
+  .sea {
+    width: 24px;
+    height: 24px;
+    left: 20px;
+  }
+  #sear {
+    width: 24px;
+  }
+  .find_future {
+    height: 100px;
+  }
+  #for_tea {
+    font-size: 18px;
+    top: -60px;
+  }
+  .each_im_one {
+    font-size: 13px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .third_cont {
+    height: 950px;
+  }
+  .sup_wr2 {
+    left: -6px;
+    top: 86px;
+    grid-gap: 40px 50px;
+  }
+  #cont {
+    font-size: 18px;
+  }
+  #telephone1, #gmail {
+    font-size: 15px;
+  }
+  #gmail {
+    top: 0;
+  }
+  #telephone1 {
+    top: 6px;
+    width: 150px;
+  }
+  .tele {
+    left: -80px;
+  }
+  #telegram {
+    width: 100%;
+  }
+  #telegram > input {
+    width: 214px;
+  }
+  #sec_inp {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+  #sendus {
+    left: 21px;
+  }
+  .contacts {
+    top: 359px;
+    left: 57%;
+  }
+  #line {
+    width: 91%;
+    left: 6%;
+    top: 350px;
+  }
+  .content_im {
+    padding: 1px 15px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  .sign {
+    width: 95px;
+    left: -14px;
+    top: 48px;
+    font-size: 15px;
+    height: 16px;
+    z-index: 1000;
+  }
+  .signin2 {
+    display: none;
+  }
+  .teacher {
+    width: 152px;
+    left: 25%;
+    height: 21px;
+    top: 166px;
+    font-size: 15px;
+    z-index: 1000;
+  }
+  .student {
+    width: 158px;
+    left: 24%;
+    height: 21px;
+    top: 232px;
+    font-size: 15px;
+    z-index: 1000;
+  }
+  .wrap_mainf {
+    width: 80%;
+    top: -133px;
+  }
+  #astro2 {
+    opacity: 0.1;
+    width: 345px;
+    top: -200px;
+    position: absolute;
+    left: -352px;
+  }
+  #bi2 {
+    line-height: 28px;
+    font-size: 20px;
+  }
+  #best2 {
+    font-size: 17px;
+  }
+  .find_te {
+    z-index: 1000;
+    top: 40px;
+    width: 230px;
+    left: 8%;
+  }
+  .wrap_first {
+    left: 0;
+    width: 100%;
+    top: 20px;
+  }
+  .navbar {
+    height: 103px;
+    top: -141px;
+  }
+  #opp {
+    font-size: 20px;
+    text-align: center;
+  }
+  .pictures3 {
+    width: 55px;
+  }
+  .content_im {
+    font-size: 13px;
+    left: 0 !important;
+  }
+  #for_students2 {
+    font-size: 18px;
+    width: 200px;
+    left: 24%;
+    top: -50px;
+  }
+  #blue_cont {
+    height: 100vh;
+  }
+  #lets_group, #lets_group2 {
+    left: 3px !important;
+  }
+  .wr_st {
+    left: -6px;
+    top: 65px;
+  }
+  #fin_te {
+    height: 40px;
+    width: 76%;
+    font-size: 12px;
+    top: -31px;
+    text-align: center;
+    left: 0 !important;
+    max-width: 280px;
+  }
+  .sea {
+    width: 24px;
+    height: 24px;
+    left: 18%;
+  }
+  #sear {
+    width: 24px;
+  }
+  .find_future {
+    height: 100px;
+  }
+  #for_tea {
+    font-size: 18px;
+    top: -60px;
+  }
+  .each_im_one {
+    font-size: 13px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .third_cont {
+    height: 830px;
+  }
+  .sup_wr2 {
+    left: -6px;
+    top: 86px;
+    grid-gap: 40px 50px;
+  }
+  #cont {
+    font-size: 18px;
+  }
+  #telephone1, #gmail {
+    font-size: 15px;
+  }
+  #gmail {
+    top: 0;
+  }
+  #telephone1 {
+    top: 6px;
+    width: 150px;
+  }
+  .tele {
+    left: -80px;
+  }
+  #telegram {
+    width: 100%;
+  }
+  #telegram > input {
+    width: 214px;
+  }
+  #sec_inp {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+  #sendus {
+    left: 21px;
+  }
+  .contacts {
+    top: 359px;
+    left: 57%;
+  }
+  #line {
+    width: 91%;
+    left: 6%;
+    top: 350px;
+  }
+  .content_im {
+    padding: 1px 15px;
+  }
+}
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  .sign {
+    width: 95px;
+    left: -14px;
+    top: 48px;
+    font-size: 15px;
+    height: 16px;
+    z-index: 1000;
+  }
+  .signin2 {
+    display: none;
+  }
+  .teacher {
+    width: 152px;
+    left: 63%;
+    height: 32px;
+    top: 156px;
+    font-size: 15px;
+    z-index: 1000;
+  }
+  .student {
+    width: 158px;
+    left: 63%;
+    height: 32px;
+    top: 242px;
+    font-size: 15px;
+    z-index: 1000;
+  }
+  .wrap_mainf {
+    width: 80%;
+    top: -133px;
+  }
+  #astro2 {
+    opacity: 0.1;
+    width: 345px;
+    top: -200px;
+    position: absolute;
+    left: -352px;
+  }
+  #bi2 {
+    line-height: 28px;
+    font-size: 20px;
+  }
+  #best2 {
+    font-size: 17px;
+  }
+  .find_te {
+    z-index: 1000;
+    top: 40px;
+    width: 230px;
+    left: 0;
+    font-family: 'Circe Regular';
+  }
+  .wrap_first {
+    left: 0;
+    width: 100%;
+    top: -50px;
+  }
+  .navbar {
+    height: 103px;
+    top: -141px;
+  }
+  #opp {
+    font-size: 20px;
+    text-align: center;
+  }
+  .pictures3 {
+    width: 55px;
+  }
+  .content_im {
+    font-size: 13px;
+    left: 0 !important;
+  }
+  #for_students2 {
+    font-size: 18px;
+    width: 200px;
+    left: 37%;
+    top: -50px;
+  }
+  #blue_cont {
+    height: 145vh;
+  }
+  #lets_group, #lets_group2 {
+    left: 3px !important;
+  }
+  .wr_st {
+    left: -6px;
+    top: 65px;
+  }
+  #fin_te {
+    height: 40px;
+    width: 76%;
+    font-size: 12px;
+    top: -31px;
+    text-align: center;
+    left: 0 !important;
+    max-width: 280px;
+  }
+  .sea {
+    width: 24px;
+    height: 24px;
+    left: 18%;
+  }
+  #sear {
+    width: 24px;
+  }
+  .find_future {
+    height: 100px;
+  }
+  #for_tea {
+    font-size: 18px;
+    top: -60px;
+  }
+  .each_im_one {
+    font-size: 13px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  .third_cont {
+    height: 680px;
+  }
+  .sup_wr2 {
+    left: -6px;
+    top: 86px;
+    grid-gap: 40px 50px;
+  }
+  #cont {
+    font-size: 18px;
+  }
+  #telephone1, #gmail {
+    font-size: 15px;
+  }
+  #gmail {
+    top: 0;
+  }
+  #telephone1 {
+    top: 6px;
+    width: 150px;
+  }
+  .tele {
+    left: -120px;
+    width: 100%;
+  }
+  #telegram {
+    width: 100%;
+  }
+  #telegram > input {
+    width: 196%;
+  }
+  #sec_inp {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+  #sendus {
+    left: 27%;
+  }
+  .contacts {
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: (1fr)[4];
+    grid-template-rows: repeat(4, 1fr);
+    top: 359px;
+    left: 58%;
+  }  .contacts > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }  .contacts > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }  .contacts > *:nth-child(3) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+  }  .contacts > *:nth-child(4) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 4;
+  }  .contacts > *:nth-child(5) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }  .contacts > *:nth-child(6) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+  }  .contacts > *:nth-child(7) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 3;
+  }  .contacts > *:nth-child(8) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 4;
+  }  .contacts > *:nth-child(9) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+  }  .contacts > *:nth-child(10) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+  }  .contacts > *:nth-child(11) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }  .contacts > *:nth-child(12) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 4;
+  }  .contacts > *:nth-child(13) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }  .contacts > *:nth-child(14) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 2;
+  }  .contacts > *:nth-child(15) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }  .contacts > *:nth-child(16) {
+    -ms-grid-row: 4;
+    -ms-grid-column: 4;
+  }
+  #fb, #vk, #inst, #gm {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / 4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+  }
+  #vk {
+    left: 63px;
+    top: 8px;
+  }
+  #fb {
+    left: 65px;
+    top: 83px;
+  }
+  #inst {
+    left: 122px;
+    opacity: 0.8;
+    top: 83px;
+  }
+  #gm {
+    left: 120px;
+  }
+  #line {
+    width: 91%;
+    left: 6%;
+    top: 350px;
+  }
+  .content_im {
+    padding: 1px 15px;
+  }
+}

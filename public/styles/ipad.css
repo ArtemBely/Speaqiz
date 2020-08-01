@@ -1,0 +1,125 @@
+                  /** for iPads **/
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .student {
+    left: 25%;
+  }
+  #astro2 {
+    left: -109px;
+  }
+  .tele {
+    left: 12%;
+  }
+  .sup_wr2 {
+    top: 40px;
+  }
+  .form_student, .form_teacher {
+    width: 455px;
+  }
+  .each_err {
+    width: 100px;
+  }
+  .separate2 {
+    left: -50px;
+  }
+  #add_cl {
+    position: relative;
+    left: -30px;
+  }
+  #my {
+    left: 16% !important;
+  }
+  #but4, #text_bio {
+    left: -54px;
+    position: relative;
+    width: 100%;
+  }
+  .re {
+    left: -54px;
+  }
+  .addi {
+    top: 81px;
+    left: -57px;
+  }
+  #cancel1 {
+    top: 113px;
+  }
+  .sep {
+    left: 27px !important;
+  }
+  .description, .description_student {
+    font-size: 16px;
+  }
+  .wrap_task3, .wrap_tasks6, #pdf2 {
+    width: 244px;
+  }
+  #audi1 {
+    top: -50px;
+    left: 3%;
+  }
+  .wrap_tasks2 {
+    left: 27%;
+  }
+  .each_task {
+    left: 52px;
+  }
+  #pi > img {
+    left: -30px;
+  }
+  #add4 > p, #logout3 > p {
+    left: 40px;
+  }
+  .wrap_study {
+    left: 287px;
+  }
+  .wrap_study_data:nth-child(6) {
+    width: 280px;
+  }
+  .feed_get {
+    left: 25px;
+  }
+  .wrap_study_data {
+    font-size: 12px;
+    width: 100%;
+  }
+  .prop {
+    left: -35px;
+  }
+  .addteach_forma > input {
+    height: 12px;
+  }
+  .but_all {
+    padding: 0;
+    height: 24px;
+    top: 0;
+  }
+  .cancel6 {
+    left: 33%;
+  }
+  .give_feed {
+    left: 29%;
+  }
+  .com_wr {
+    height: 51px;
+    font-size: 23px;
+  }
+  .wrap_study_data:nth-child(5), .wrap_study_data:nth-child(8) {
+    left: 39%;
+  }
+  #your_rait2 {
+    left: 38%;
+  }
+  .wrap_audio {
+    left: 0 !important;
+  }
+  #choose2 {
+    left: 6%;
+  }
+  #astro1 {
+    width: 242px;
+    left: 73%;
+  }
+  #review_all {
+    left: 400px;
+  }
+}

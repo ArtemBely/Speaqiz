@@ -1,0 +1,301 @@
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .last {
+    font-size: 15px;
+  }
+  .wr_ta {
+    left: 40px;
+    width: 70%;
+  }
+  #last {
+    left: 270px;
+  }
+  #timestamp {
+    left: 305px;
+    top: 18px;
+  }
+  #proc {
+    left: -50px;
+  }
+  .padavans_rait {
+    left: 37%;
+    opacity: 0;
+  }
+  .wrap_myraiting {
+    left: -300px;
+  }
+  .myraiting {
+    font-size: 18px;
+  }
+  .wrap_data2 {
+    font-size: 20px;
+  }
+  #review {
+    width: 60px;
+  }
+  #look {
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+  }
+  .description, .description_student {
+    font-size: 20px;
+  }
+  .nav_to {
+    top: -70px;
+  }
+  #gold {
+    top: 130px;
+    left: 70%;
+  }
+  #silver {
+    top: 420px;
+    left: 70%;
+  }
+  #bronze {
+    top: 710px;
+    left: 70%;
+  }
+  .wrap_champ {
+    position: relative;
+    top: 15px;
+  }
+  .feedback {
+    font-size: 25px;
+  }
+  #nav_rait2 {
+    font-size: 22px;
+  }
+  .wrap_thema {
+    width: 160px;
+  }
+  .link2 {
+    font-size: 17px;
+  }
+  .main_title {
+     border-bottom: 0;
+     -webkit-border-after: 1px solid;
+             border-block-end: 1px solid;
+     -webkit-border-before: 0;
+             border-block-start: 0;
+     font-size: 23px;
+   }
+   .link_part {
+     font-size: 20px;
+     text-align: center;
+     padding: 0 15px;
+     width: 67%;
+     font-size: 20px;
+     height: 80px;
+     -ms-flex-line-pack: center;
+         align-content: center;
+   }
+  #add_the {
+    font-size: 15px;
+    text-align: center;
+  }
+  #wrap_newfile {
+    font-size: 15px;
+  }
+  #but13 {
+    font-size: 15px;
+  }
+  #none_tasks {
+    font-size: 17px;
+    top: 264px;
+    width: 50%;
+    left: 160px;
+  }
+  .add_task2 {
+    font-size: 15px;
+  }
+  #test1 > input, #test2 > input {
+    font-size: 15px;
+  }
+  #but10, #but9 {
+    font-size: 15px;
+  }
+  .each_task {
+    height: 70px;
+    left: 100px;
+    width: 60%;
+    cursor: pointer;
+  }
+  #delete1 {
+    height: 29px;
+    font-size: 12px;
+  }
+  .title2 {
+    font-size: 20px;
+    top: -10px;
+  }
+  .wrap_tasks2 {
+    width: 47%;
+    left: 23%;
+    height: 1015px;
+  }
+  .main_image {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: -50px;
+  }
+  .special2 {
+    right: 122px;
+  }
+  .wrap_part3 {
+    padding: 24px;
+  }
+  #audi1 {
+    position: relative;
+    top: -150px;
+    left: 44%;
+  }
+  #listo {
+    left: 0;
+    top: -40px;
+  }
+  #pi > img {
+    width: 130px;
+    position: relative;
+    top: 37px;
+    left: 7px;
+  }
+  #add4 > p {
+    left: 79px;
+    width: 201px;
+    font-size: 13px;
+    height: 30px;
+    top: 50px;
+  }
+  #logout3 > p {
+    left: 79px;
+    width: 201px;
+    font-size: 13px;
+    top: 20px;
+    height: 30px;
+  }
+  .wrap_study {
+    left: 377px;
+    top: -360px;
+  }
+  .wrap_study_data {
+    font-size: 14px;
+  }
+  .wrap_study_data:nth-child(6) {
+    font-size: 15px;
+    text-align: center;
+    left: 90px;
+  }
+  .give_feed {
+    left: 15%;
+    top: -36px !important;
+  }
+  .prop {
+    top: 63px !important;
+  }
+  #cancel5 {
+    left: 64px;
+    top: 5px;
+    font-size: 15px;
+  }
+  .com_wr {
+    height: 59px;
+    font-size: 27px;
+    width: 70%;
+    left: 30px;
+    position: relative;
+  }
+  #your_rait {
+    left: 34%;
+    width: 400px;
+    text-align: center;
+    top: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Circe Light';
+  }
+  #your_rait2 {
+    font-size: 20px;
+    width: 600px;
+    left: 46%;
+    top: 250px;
+  }
+  #astro3 {
+    top: 560px;
+    left: 46%;
+    width: 350px;
+  }
+  .study_rait {
+    width: 25%;
+  }
+  #gold1, #silver1, #bronze1 {
+    left: 21%;
+  }
+  .awords2 {
+    width: 77px;
+  }
+  .tit {
+    font-size: 30px;
+  }
+  .common_themes {
+    top: -30px;
+  }
+  .each_tit {
+    height: 53px;
+    font-size: 19px;
+    width: 80%;
+    left: 30px;
+  }
+  .each_wrapTask {
+    font-size: 17px;
+    margin: 4px;
+    width: 67%;
+    left: 32px;
+  }
+  .wrap_tasks4 {
+    grid-gap: 15px 0px;
+  }
+  .each_audio1 {
+    font-size: 15px;
+  }
+  .im_done {
+    width: 28px;
+  }
+  .ta {
+    font-size: 19px;
+  }
+  #choose2 {
+    font-size: 17px;
+  }
+  #astro1 {
+    width: 300px;
+  }
+  .nested_window {
+    font-size: 22px;
+  }
+  #start_again, #look_theory {
+    height: 64px;
+  }
+  .sla {
+    width: 73% !important;
+    left: 5%;
+  }
+  .ta {
+    position: absolute;
+    left: 12px;
+    top: 45px;
+  }
+  #textDone {
+    text-align: center;
+    font-size: 21px;
+  }
+  #telecheck {
+    width: 170px;
+    position: relative;
+    left: 91px;
+  }
+  .nest_modal {
+    width: 350px;
+    height: 400px;
+  }
+}

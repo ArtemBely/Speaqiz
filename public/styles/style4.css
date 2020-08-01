@@ -1,0 +1,424 @@
+.footer {
+  position: relative;
+  top: 465px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+  grid-template-columns: 40% 60%;
+  height: 350px;
+  width: 100%;
+  background-color: #fff;
+}
+.contacts {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+  grid-template-columns: 20% 80%;
+  -ms-grid-rows: (1fr)[4];
+  grid-template-rows: repeat(4, 1fr);
+  height: 285px;
+  width: 80%;
+  left: 10%;
+}
+.contacts > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.contacts > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+.contacts > *:nth-child(3) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+.contacts > *:nth-child(4) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+.contacts > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.contacts > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+.contacts > *:nth-child(7) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+}
+.contacts > *:nth-child(8) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+}
+#cont {
+  position: relative;
+  left: -36px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  color: #00738E;
+  font-family: 'Circe Regular';
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+#tele_im {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  position: relative;
+  top: 12px;
+  left: -8px;
+  width: 35px;
+  opacity: 0.9;
+}
+#telephone1 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  color: #00738E;
+  font-family: 'Circe Regular';
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+  letter-spacing: 1px;
+}
+#gmail_im {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  position: relative;
+  top: 12px;
+  left: -10px;
+}
+#gmail {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  color: #00738E;
+  font-family: 'Circe Regular';
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+  letter-spacing: 1px;
+}
+.com_im {
+  position: absolute;
+  width: 30px;
+}
+#fb, #vk, #inst, #gm {
+  top: 10px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4 / 5;
+  cursor: pointer;
+}
+#fb {
+  left: -40px;
+}
+#inst {
+  left: 15px;
+  opacity: 0.8;
+}
+#vk {
+  opacity: 0.9;
+  width: 36px;
+  left: 63px;
+  top: 8px;
+}
+#gm {
+  left: 120px;
+}
+#telegram {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  width: 500px;
+  top: 25px;
+  height: 150px;
+  -ms-grid-columns: 1fr 5px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+#telegram > input {
+  cursor: pointer;
+  padding-left: 8px;
+  height: 30px;
+  border: 1px solid #00738E;
+  color: #00738E;
+  font-family: 'Circe Regular';
+  border-radius: 10px;
+  font-size: 15px;
+}
+#sendus {
+  width: 180px;
+  position: relative;
+  top: 18px;
+  color: #00738E;
+  font-family: 'Circe Regular';
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+#text_area {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  height: 80px;
+  cursor: pointer;
+  color: #00738E;
+  padding: 8px;
+  border: 1px solid #00738E;
+  font-family: 'Circe Regular';
+  border-radius: 10px 10px 0 0;
+  font-size: 15px;
+}
+#text_area::placeholder, #telegram > input::placeholder {
+  font-family: 'Circe Light';
+  color: #00738E;
+}
+#but7 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  position: relative;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #00738E;
+  color: white;
+  font-family: 'Circe Regular';
+}
+.tele {
+  position: relative;
+  width: 60%;
+  left: 20%;
+  top: -15px
+}
+#line {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  left: 19%;
+  position: relative;
+  background: -webkit-gradient(linear,
+  left top, right top,
+  from(rgba(0, 115, 142, 0)), color-stop(rgba(0, 115, 142, 0.75)),
+  to(rgba(0, 115, 142, 0)));
+  background: -o-linear-gradient(left,
+  rgba(0, 115, 142, 0), rgba(0, 115, 142, 0.75),
+  rgba(0, 115, 142, 0));
+  background: linear-gradient(to right,
+  rgba(0, 115, 142, 0), rgba(0, 115, 142, 0.75),
+  rgba(0, 115, 142, 0));
+  height: 2px;
+}
+#info_com {
+  position: relative;
+  top: -3px;
+  height: 48px;
+  color: #00738E;
+}
+#arrow {
+  position: relative;
+  width: 30px;
+  cursor: pointer;
+  top: 9px;
+  left: -9px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#arrow:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#mainlink {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  top: -30px;
+  left: 25px;
+}
+#for {
+  position: relative;
+  top: 50px;
+}
+#for > input {
+  height: 25px;
+  background-color: white;
+  border: none;
+  padding: 6px;
+  font-size: 14px;
+  color: #00738E;
+  cursor: pointer;
+  border-radius: 10px 0 0 10px;
+  font-family: 'Circe Light';
+}
+#for > input::placeholder {
+  font-family: 'Circe Light';
+}
+#but8 {
+  height: 37px;
+  border: none;
+  position: relative;
+  top: -1px;
+  background-color: #00738E;
+  cursor: pointer;
+  color: white;
+  font-family: 'Circe Light';
+}
+#nav {
+  position: relative;
+  top: 70px;
+  left: 70px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.wrap_file {
+  position: relative;
+  background-color: white;
+  margin-bottom: 5px;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 6px;
+  color: rgba(0, 115, 142, 0.75);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.wrap_file > input {
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.tog {
+  background-color: #00738E !important;
+  color: white !important;
+}
+#delete1 {
+    width: 124px;
+    text-decoration: none;
+    height: 40px;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 0 10px 10px 0;
+}
+#last {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    left: 280px;
+    width: 300px;
+}
+#timestamp {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    -ms-grid-column-align: start;
+        justify-self: start;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    position: absolute;
+    left: 310px;
+    top: 17px;
+}
+#compl_task {
+    top: 40px;
+    width: 200px;
+    left: 58%;
+}
+#proc {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / 4;
+    position: absolute;
+    left: -50px;
+    top: 17px;
+}
+.wrap_foot2 {
+    top: -180px;
+    position: relative;
+}
+#ar2 {
+  width: 30px;
+  position: relative;
+  left: -10px;
+  top: 10px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+#ar2:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.nav_to {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  top: 20px;
+  left: 30px;
+}

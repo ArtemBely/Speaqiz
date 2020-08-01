@@ -1,0 +1,119 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  .wrap_audio {
+    top: 90px;
+    height: 550px;
+    overflow-y: scroll;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .each_audio {
+    display: -ms-grid;
+    display: grid;
+    left: -28px;
+    top: 30px
+  }
+  .arrow_task {
+    top: 0;
+  }
+  .each_audio1.spec {
+    width: 85%;
+    left: 10%;
+    font-size: 14px;
+    height: 17px;
+  }
+  .ta {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 25px;
+    left: 34%;
+    top: -42px;
+    width: 50%;
+    font-size: 16px;
+  }
+  .im_done {
+    width: 26px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  .wrap_audio {
+    top: 90px;
+    height: 550px;
+    overflow-y: scroll;
+    left: -5px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .each_audio {
+    display: -ms-grid;
+    display: grid;
+    left: -33px;
+    top: 30px
+  }
+  .arrow_task {
+    top: 0;
+  }
+  .each_audio1.spec {
+    width: 85%;
+    left: 10%;
+    font-size: 14px;
+    height: 17px;
+  }
+  .ta {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 25px;
+    left: 34%;
+    top: -42px;
+    width: 50%;
+    font-size: 16px;
+  }
+  .im_done {
+    width: 26px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  .wrap_audio {
+    top: 90px;
+    height: 550px;
+    overflow-y: scroll;
+    left: -47px;
+    width: 105%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .each_audio {
+    display: -ms-grid;
+    display: grid;
+    left: -28px;
+    top: 30px;
+  }
+  .arrow_task {
+    top: 0;
+  }
+  .each_audio1.spec {
+    width: 85%;
+    left: 10%;
+    font-size: 14px;
+    height: 17px;
+  }
+  .ta {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 25px;
+    left: 34%;
+    top: -42px;
+    width: 50%;
+    font-size: 16px;
+  }
+  .im_done {
+    width: 26px;
+  }
+}

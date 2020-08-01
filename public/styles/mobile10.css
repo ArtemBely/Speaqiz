@@ -1,0 +1,95 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  #parts2 {
+    font-size: 25px;
+    top: 130px;
+  }
+  .wrap_tasks4 {
+    overflow-y: scroll;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    top: 160px;
+    grid-gap: 15px;
+    width: 112%;
+    left: -44px;
+    height: 500px;
+  }
+  .wrap_tasks4::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+  }
+  .each_wrapTask {
+    width: 76%;
+    left: 13%;
+    font-size: 22px;
+  }
+  .com_main2 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  #parts2 {
+    font-size: 25px;
+    top: 130px;
+  }
+  .wrap_tasks4 {
+    overflow-y: scroll;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    top: 160px;
+    grid-gap: 15px;
+    width: 109%;
+    left: -44px;
+    height: 500px;
+  }
+  .wrap_tasks4::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+  }
+  .each_wrapTask {
+    width: 76%;
+    left: 13%;
+    font-size: 22px;
+  }
+  .com_main2 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  #parts2 {
+    font-size: 25px;
+    top: 130px;
+  }
+  .wrap_tasks4 {
+    overflow-y: scroll;
+    position: relative;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    top: 160px;
+    grid-gap: 15px;
+    width: 100%;
+    left: 0;
+    height: 500px;
+  }
+  .wrap_tasks4::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+  }
+  .each_wrapTask {
+    width: 76%;
+    left: 10%;
+    font-size: 22px;
+  }
+  .com_main2 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,244 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  #choose2 {
+    top: 40px;
+    width: 85%;
+    text-align: center;
+    left: 6%;
+    font-size: 15px;
+  }
+  #astro1 {
+    width: 200px;
+    top: 250px;
+    left: 16%;
+    opacity: 0;
+    z-index: 0;
+  }
+  .each_audio {
+    top: 100px;
+  }
+  .each_audio1 {
+    width: 85%;
+    left: 10%;
+    font-size: 14px;
+    height: auto;
+  }
+  .check_form2 {
+    top: 10px;
+    position: relative;
+  }
+  #inp_2 {
+    width: 67%;
+    position: relative;
+    left: 13%;
+    height: 25px;
+    outline: none;
+  }
+  #but11 {
+    left: 14px;
+    width: 26%;
+    height: 45px;
+    top: 0px;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+  }
+  .task_special {
+    height: 1000px;
+  }
+  .gen_but {
+    height: 45px;
+    font-size: 19px;
+    top: -5px;
+    left: 13%;
+    width: 91%;
+  }
+
+  #targ, #start_again {
+    -ms-grid-column: 1 !important;
+    -ms-grid-column-span: 1 !important;
+    grid-column: 1 / 2 !important;
+    font-size: 15px;
+  }
+  #youre_wrong {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    width: 100%;
+    font-size: 15px;
+  }
+  .nested_window {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    left: 14%;
+  }
+  #look_theory, #start_again {
+    height: 48px;
+  }
+  #modal_window {
+    top: -16px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  #choose2 {
+    top: 40px;
+    width: 85%;
+    text-align: center;
+    left: 6%;
+    font-size: 15px;
+  }
+  #astro1 {
+    width: 200px;
+    top: 250px;
+    left: 16%;
+    opacity: 0;
+    z-index: 0;
+  }
+  .each_audio {
+    top: 100px;
+  }
+  .each_audio1 {
+    width: 85%;
+    left: 10%;
+    font-size: 14px;
+    height: auto;
+  }
+  .check_form2 {
+    top: 10px;
+    position: relative;
+  }
+  #inp_2 {
+    width: 67%;
+    position: relative;
+    left: 13%;
+    height: 25px;
+    outline: none;
+  }
+  #but11 {
+    left: 14px;
+    width: 26%;
+    height: 45px;
+    top: 0px;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+  }
+  .task_special {
+    height: 1050px;
+  }
+  .gen_but {
+    height: 45px;
+    font-size: 19px;
+    top: 15px;
+    left: 12%;
+    width: 91%;
+  }
+
+  #targ, #start_again {
+    -ms-grid-column: 1 !important;
+    -ms-grid-column-span: 1 !important;
+    grid-column: 1 / 2 !important;
+    font-size: 15px;
+  }
+  #youre_wrong {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    width: 100%;
+    font-size: 15px;
+  }
+  .nested_window {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    left: 14%;
+  }
+  #look_theory, #start_again {
+    height: 48px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  #choose2 {
+    top: 40px;
+    width: 85%;
+    text-align: center;
+    left: 6%;
+    font-size: 15px;
+  }
+  #astro1 {
+    width: 200px;
+    top: 250px;
+    left: 16%;
+    opacity: 0;
+    z-index: 0;
+  }
+  .each_audio {
+    top: 100px;
+  }
+  .each_audio1 {
+    width: 85%;
+    left: 10%;
+    font-size: 14px;
+    height: auto;
+  }
+  .check_form2 {
+    top: 10px;
+    position: relative;
+  }
+  #inp_2 {
+    width: 67%;
+    position: relative;
+    left: 13%;
+    height: 25px;
+    outline: none;
+  }
+  #but11 {
+    left: 14px;
+    width: 26%;
+    height: 45px;
+    top: 0px;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+  }
+  #app {
+    height: 116%;
+  }
+  .task_special {
+    height: 1175px;
+  }
+  .gen_but {
+    height: 45px;
+    font-size: 19px;
+    top: -5px;
+    left: 10%;
+    width: 91%;
+  }
+
+  #targ, #start_again {
+    -ms-grid-column: 1 !important;
+    -ms-grid-column-span: 1 !important;
+    grid-column: 1 / 2 !important;
+    font-size: 15px;
+  }
+  #youre_wrong {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+    width: 100%;
+    font-size: 15px;
+  }
+  .nested_window {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    left: 18%;
+  }
+  #look_theory, #start_again {
+    height: 48px;
+  }
+  #modal_window {
+    top: -16px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+  #logout, .form_bio {
+    z-index: 999;
+  }
+}

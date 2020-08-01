@@ -1,0 +1,297 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  .wrap_myForm {
+    width: 60%;
+    position: relative;
+  }
+  .find_forma > input {
+    width: 100%;
+    height: 11px;
+    font-size: 19px;
+    padding: 14px;
+  }
+  #but12 {
+    width: 111%;
+    height: 44px;
+    font-size: 19px;
+    padding: 9px;
+  }
+  #teach_obso {
+    top: 71px;
+    font-size: 20px;
+    width: 61%;
+    text-align: center;
+    left: 3%;
+  }
+  #not_found {
+    top: -350px;
+    font-size: 20px;
+    left: 18px;
+    width: 57%;
+  }
+  .wrap_foot6 {
+    width: 69%;
+  }
+  #teach_foryou {
+    top: 275px;
+    font-size: 20px;
+    width: 66%;
+  }
+  #prof_search {
+    width: 80px;
+    height: 80px;
+  }
+  .wrap_special {
+    width: 77%;
+  }
+  .darth {
+    font-size: 14px;
+    width: 72%;
+    left: 17%;
+    padding: 12px;
+  }
+    .all_fields:nth-child(4) {
+      position: relative;
+      left: -30px;
+      width: 107%;
+      top: 51px;
+    }
+    .all_fields:nth-child(5) {
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 1;
+      grid-column: 1 / 2;
+      width: 100%;
+      position: relative;
+      display: -ms-grid;
+      display: grid;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+
+  .all_fields:nth-child(6) {
+    position: relative;
+  }
+  .all_fields:nth-child(7) {
+    position: relative;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+  .all_fields:nth-child(8) {
+    position: relative;
+    left: -30px;
+  }
+  .all_fields:nth-child(2) {
+    position: relative;
+    left: 20px;
+  }
+  .all_fields:nth-child(3) {
+     -ms-grid-column: 2;
+     -ms-grid-column-span: 1;
+     grid-column: 2 / 3;
+     position: relative;
+     top: -35px;
+     left: 20px;
+   }
+}
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  .wrap_myForm {
+    width: 91%;
+    position: relative;
+  }
+  .find_forma > input {
+    width: 100%;
+    height: 11px;
+    font-size: 19px;
+    padding: 14px;
+  }
+  .wrap_find_forma {
+    display: block;
+  }
+  #but12 {
+    width: 112%;
+    height: 44px;
+    font-size: 19px;
+    padding: 9px;
+  }
+  #teach_obso {
+    top: 71px;
+    font-size: 20px;
+    width: 93%;
+    text-align: center;
+    left: 3%;
+  }
+  #not_found {
+    top: -350px;
+    font-size: 20px;
+    left: 18px;
+    width: 88%;
+  }
+  .wrap_foot6 {
+    width: 100%;
+  }
+  #teach_foryou {
+    top: 275px;
+    font-size: 20px;
+    width: 98%;
+  }
+  #prof_search {
+    width: 80px;
+    height: 80px;
+  }
+  .wrap_special {
+    width: 77%;
+  }
+  .darth {
+    font-size: 16px;
+    width: 97%;
+    left: 26%;
+    padding: 12px;
+  }
+    .all_fields:nth-child(4) {
+      position: relative;
+      left: -30px;
+      width: 107%;
+      top: 51px;
+    }
+    .all_fields:nth-child(5) {
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 1;
+      grid-column: 1 / 2;
+      width: 100%;
+      position: relative;
+      display: -ms-grid;
+      display: grid;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+
+  .all_fields:nth-child(6) {
+    position: relative;
+  }
+  .all_fields:nth-child(7) {
+    position: relative;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+  .all_fields:nth-child(8) {
+    position: relative;
+    left: -30px;
+  }
+  .all_fields:nth-child(2) {
+    position: relative;
+    left: 20px;
+  }
+  .all_fields:nth-child(3) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+    position: relative;
+    top: -35px;
+    left: 20px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  .wrap_myForm {
+    width: 83%;
+    position: relative;
+  }
+  .find_forma > input {
+    width: 150%;
+    height: 11px;
+    font-size: 19px;
+    padding: 14px;
+  }
+  .wrap_find_forma {
+    display: block;
+  }
+  #but12 {
+    width: 162%;
+    height: 44px;
+    font-size: 19px;
+    padding: 9px;
+  }
+  #teach_obso {
+    top: 71px;
+    font-size: 20px;
+    width: 93%;
+    text-align: center;
+    left: 3%;
+  }
+  #not_found {
+    top: -350px;
+    font-size: 20px;
+    left: 27px;
+    width: 96%;
+  }
+  .wrap_foot6 {
+    width: 100%;
+  }
+  #teach_foryou {
+    top: 275px;
+    font-size: 20px;
+    width: 98%;
+  }
+  #prof_search {
+    width: 80px;
+    height: 80px;
+  }
+  .wrap_special {
+    width: 77%;
+  }
+  .darth {
+    font-size: 16px;
+    width: 97%;
+    left: 26%;
+    padding: 12px;
+    height: 300px;
+  }
+    .all_fields:nth-child(4) {
+      position: relative;
+      left: -30px;
+      width: 107%;
+      top: 51px;
+    }
+    .all_fields:nth-child(5) {
+      -ms-grid-column: 1;
+      -ms-grid-column-span: 1;
+      grid-column: 1 / 2;
+      width: 100%;
+      position: relative;
+      display: -ms-grid;
+      display: grid;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+
+  .all_fields:nth-child(6) {
+    position: relative;
+    top: -75px;
+  }
+  .all_fields:nth-child(7) {
+    position: relative;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+  }
+  .all_fields:nth-child(8) {
+    position: relative;
+    left: -30px;
+  }
+  .all_fields:nth-child(2) {
+    position: relative;
+    left: 20px;
+  }
+  .all_fields:nth-child(3) {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+    position: relative;
+    top: -35px;
+    left: 20px;
+  }
+}

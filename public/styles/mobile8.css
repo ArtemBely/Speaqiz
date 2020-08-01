@@ -1,0 +1,430 @@
+@media (min-width: 320px) and (max-width: 321px) {
+  .wrap_tasks2 {
+    top: -850px;
+    left: 1%;
+    height: 400px;
+    width: 87%;
+    left: 6%;
+  }
+  .each_task {
+    height: 45px;
+    margin-left: 21px;
+  }
+  .title2 {
+    font-size: 16px;
+    top: -15px;
+  }
+  #delete1 {
+    width: 90px;
+    font-size: 10px;
+    height: 22px;
+  }
+  #pdf {
+    position: relative;
+    top: -840px;
+    left: 1%;
+    width: 97%;
+    height: 100px;
+    overflow-y: scroll;
+    font-size: 13px;
+  }
+  #pdf2 {
+    width: 261px;
+    left: 7%;
+  }
+  #pdf::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+  }
+  #add_the {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+  #wrap_newfile, #but13 {
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  .wrap_tasks6 {
+    top: 612px;
+    z-index: 1000;
+  }
+  .main_wrap_task {
+    position: relative;
+    background-image: -o-linear-gradient(355deg, #00B4DB, #0083B0);
+    background-image: linear-gradient(95deg, #00B4DB, #0083B0);
+    height: 1700px;
+  }
+  .wrap_foot7 {
+    top: -470px;
+  }
+  #arrow_wr, #add_word, .add_task2  {
+    z-index: 1;
+  }
+  .add_task2 {
+    top: 42px;
+    left: -6px;
+    font-size: 13px;
+  }
+  #add_word {
+    left: -4px;
+    z-index: 1;
+    height: 10px;
+    font-size: 13px;
+    top: 73px;
+  }
+  #test2 {
+    left: -7px;
+  }
+  .wrap_task3 {
+    top: 753px;
+  }
+  #test1 > input, #test2 > input {
+    margin: 2px 0;
+    height: 23px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .wrap_file {
+    height: 18px;
+    margin: 2px 0;
+    font-size: 17px;
+    padding: 7px;
+  }
+  #super_form {
+    top: 820px;
+    left: -5px;
+  }
+  #test1 {
+    height: 216px;
+  }
+  #but9, #but10 {
+    border-radius: 3px;
+  }
+  .gogo {
+    width: 94% !important;
+    left: -10px;
+  }
+  .special2 {
+    right: 18px;
+  }
+  .title2.special2 {
+    font-size: 9px;
+  }
+  #listo {
+    width: 42px;
+    top: -65px;
+  }
+  .main_image {
+    width: 36%;
+    height: 20%;
+    top: 329px;
+    left: 20px;
+  }
+  #audi1 {
+    width: 49%;
+    top: 387px;
+    left: 48%;
+    height: 25px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: portrait) {
+  .wrap_tasks2 {
+    top: -850px;
+    left: 1%;
+    height: 400px;
+    width: 87%;
+    left: 6%;
+  }
+  .each_task {
+    height: 45px;
+    margin-left: 21px;
+  }
+  .title2 {
+    font-size: 16px;
+    top: -15px;
+  }
+  #delete1 {
+    width: 90px;
+    font-size: 10px;
+    height: 22px;
+  }
+  #pdf {
+    position: relative;
+    top: -840px;
+    left: 1%;
+    width: 97%;
+    height: 100px;
+    overflow-y: scroll;
+    font-size: 13px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #pdf2 {
+    width: 261px;
+    left: -10px;
+  }
+  .wrap_all_pi {
+    float: left;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    right: 0;
+  }
+  #pdf::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+  }
+  #add_the {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+  #wrap_newfile, #but13 {
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  #but13 {
+    height: 45px;
+    width: 100%;
+  }
+  .wrap_tasks6 {
+    top: 612px;
+    z-index: 1000;
+    width: 92%;
+    left: 3%;
+  }
+  .main_wrap_task {
+    position: relative;
+    background-image: -o-linear-gradient(355deg, #00B4DB, #0083B0);
+    background-image: linear-gradient(95deg, #00B4DB, #0083B0);
+    height: 1700px;
+  }
+  .wrap_foot7 {
+    top: -470px;
+  }
+  #arrow_wr, #add_word, .add_task2  {
+    z-index: 1;
+  }
+  .add_task2 {
+    top: 42px;
+    left: -6px;
+    font-size: 13px;
+  }
+  #add_word {
+    left: -4px;
+    z-index: 1;
+    height: 10px;
+    font-size: 13px;
+    top: 73px;
+  }
+  #test2 {
+    left: -7px;
+  }
+  .wrap_task3 {
+    top: 753px;
+  }
+  #test1 > input, #test2 > input {
+    margin: 2px 0;
+    height: 23px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .wrap_file {
+    height: 18px;
+    margin: 2px 0;
+    font-size: 17px;
+    padding: 7px;
+  }
+  #super_form {
+    top: 820px;
+    left: -5px;
+  }
+  #test1 {
+    height: 216px;
+  }
+  #but9, #but10 {
+    border-radius: 3px;
+  }
+  .gogo {
+    width: 94% !important;
+    left: -10px;
+  }
+  .special2 {
+    right: 18px;
+  }
+  .title2.special2 {
+    font-size: 9px;
+  }
+  #listo {
+    width: 42px;
+    top: -65px;
+  }
+  .main_image {
+    width: 36%;
+    height: 20%;
+    top: 329px;
+    left: 20px;
+  }
+  #audi1 {
+    width: 49%;
+    top: 387px;
+    left: 48%;
+    height: 25px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 1000px) and (orientation: landscape) {
+  .wrap_tasks2 {
+    top: -850px;
+    left: 1%;
+    height: 400px;
+    width: 87%;
+    left: 6%;
+  }
+  .each_task {
+    height: 45px;
+    margin-left: 21px;
+  }
+  .title2 {
+    font-size: 16px;
+    top: -15px;
+  }
+  #delete1 {
+    width: 90px;
+    font-size: 10px;
+    height: 22px;
+  }
+  #pdf {
+    position: relative;
+    top: -840px;
+    left: 1%;
+    width: 97%;
+    height: 100px;
+    overflow-y: scroll;
+    font-size: 13px;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #pdf2 {
+    width: 261px;
+    left: -10px;
+  }
+  .wrap_all_pi {
+    float: left;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    right: 0;
+  }
+  #pdf::-webkit-scrollbar {
+    background: transparent;
+    width: 0;
+  }
+  #add_the {
+    font-size: 12px;
+    padding: 0 8px;
+  }
+  #wrap_newfile, #but13 {
+    font-size: 17px;
+    border-radius: 10px;
+  }
+  #but13 {
+    height: 45px;
+    width: 100%;
+  }
+  .wrap_tasks6 {
+    top: 612px;
+    z-index: 1000;
+    width: 92%;
+    left: 3%;
+  }
+  .main_wrap_task {
+    position: relative;
+    background-image: -o-linear-gradient(355deg, #00B4DB, #0083B0);
+    background-image: linear-gradient(95deg, #00B4DB, #0083B0);
+    height: 1700px;
+  }
+  .wrap_foot7 {
+    top: -470px;
+  }
+  #arrow_wr, #add_word, .add_task2  {
+    z-index: 1;
+  }
+  .add_task2 {
+    top: 42px;
+    left: -6px;
+    font-size: 13px;
+  }
+  #add_word {
+    left: -4px;
+    z-index: 1;
+    height: 10px;
+    font-size: 13px;
+    top: 73px;
+  }
+  #test2 {
+    left: -63px;
+    width: 140%;
+  }
+  .wrap_task3 {
+    top: 753px;
+  }
+  #test1 > input, #test2 > input {
+    margin: 2px 0;
+    height: 23px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .wrap_file {
+    height: 18px;
+    margin: 2px 0;
+    font-size: 17px;
+    padding: 7px;
+  }
+  #super_form {
+    top: 820px;
+    left: -5px;
+  }
+  #test1 {
+    height: 216px;
+    width: 140%;
+    left: -60px;
+  }
+  #but9, #but10 {
+    border-radius: 3px;
+  }
+  .gogo {
+    width: 94% !important;
+    left: -10px;
+  }
+  .special2 {
+    right: 18px;
+  }
+  .title2.special2 {
+    font-size: 9px;
+  }
+  #listo {
+    width: 42px;
+    top: -65px;
+  }
+  .main_image {
+    width: 36%;
+    height: 27%;
+    top: 300px;
+    left: 20px;
+  }
+  #audi1 {
+    width: 49%;
+    top: 387px;
+    left: 48%;
+    height: 25px;
+  }
+}
