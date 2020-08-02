@@ -11,7 +11,7 @@
     top: 250px;
     left: 16%;
     opacity: 0;
-    z-index: 0;
+    z-index: -10;
   }
   .each_audio {
     top: 100px;
@@ -91,7 +91,7 @@
     top: 250px;
     left: 16%;
     opacity: 0;
-    z-index: 0;
+    z-index: -10;
   }
   .each_audio {
     top: 100px;
@@ -122,7 +122,7 @@
     font-size: 15px;
   }
   .task_special {
-    height: 1050px;
+    height: 1150px;
   }
   .gen_but {
     height: 45px;
@@ -168,7 +168,7 @@
     top: 250px;
     left: 16%;
     opacity: 0;
-    z-index: 0;
+    z-index: -10;
   }
   .each_audio {
     top: 100px;

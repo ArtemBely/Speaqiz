@@ -264,7 +264,7 @@
     left: 88%;
   }
   #close1 {
-    left: 122px;
+    left: 140px;
     top: -45px;
   }
   #bio2 {
@@ -362,6 +362,10 @@
     width: 265px;
     font-size: 12px;
     height: 35px;
+  }
+  #fo {
+    position: relative;
+    left: -20px;
   }
   .sep {
     opacity: 0;

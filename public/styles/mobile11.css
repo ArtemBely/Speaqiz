@@ -7,7 +7,7 @@
     grid-template-columns: 1fr;
   }
   .each_audio {
-    display: -ms-grid;
+    display: -ms-grid; 
     display: grid;
     left: -28px;
     top: 30px

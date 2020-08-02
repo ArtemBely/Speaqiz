@@ -213,7 +213,7 @@
     top: 83px !important;
     left: 0;
     font-size: 15px;
-    height: 656px;
+    height: 675px;
     width: 100%;
     color: white;
     background-color: #00738E;
@@ -270,8 +270,8 @@
   }
   #nav_rait2 {
     font-size: 19px;
-    left: 31%;
-    top: 23px;
+    left: 36%;
+    top: 2px;
     color: white;
   }
   .wrap_myraiting {
