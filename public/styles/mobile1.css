@@ -7,6 +7,10 @@
     height: 16px;
     z-index: 1000;
   }
+  .form_student1 > input {
+    font-family: 'Circe Regular';
+    font-size: 12px;
+  }
   .signin2 {
     display: none;
   }
@@ -173,6 +177,10 @@
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .form_student1 > input {
+    font-family: 'Circe Regular';
+    font-size: 14px;
   }
   .signin2 {
     display: none;
@@ -342,6 +350,10 @@
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .form_student1 > input {
+    font-family: 'Circe Regular';
+    font-size: 14px;
   }
   .signin2 {
     display: none;
