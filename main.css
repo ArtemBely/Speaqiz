@@ -32,8 +32,11 @@ body {
   width: 500px;
   height: 500px;
 }
+.awards2 {
+  width: 80px !important;
+}
 .wrap_foot44 {
-  top: -120px;
+  top: -106px !important;
 }
 .wrap_champ {
   font-family: 'Circe Light';
@@ -4319,7 +4322,7 @@ body {
     z-index: 1000;
   }
   .wrap_foot44 {
-    top: -120px;
+    top: -106px !important;
   }
   .form_student1 > input {
     font-family: 'Circe Regular';
@@ -4493,7 +4496,7 @@ body {
     z-index: 1000;
   }
   .wrap_foot44 {
-    top: -120px;
+    top: -106px !important;
   }
   .form_student1 > input {
     font-family: 'Circe Regular';
@@ -4669,7 +4672,7 @@ body {
     z-index: 1000;
   }
   .wrap_foot44 {
-    top: -120px;
+    top: -106px !important;
   }
   .form_student1 > input {
     font-family: 'Circe Regular';

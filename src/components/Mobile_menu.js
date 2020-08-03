@@ -49,7 +49,9 @@ class Mobile extends React.Component {
  }
 
 componentDidMount() {
+  if(this.close.current) {
   this.close.current.classList.add('move_small');
+ }
 }
 
   render() {
