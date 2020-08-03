@@ -14,15 +14,15 @@ class AddTeacher extends React.Component {
       {props =>
       <p style={props} className='prop'>
         <form action='/profile' method='POST' className='addteach_forma'>
-           <input type='text' name='teacher' placeholder='Добавить педагога' required />
+           <input type='text' name='teacher' placeholder="Добавить 'email' педагога" required />
            <button type='submit' className='but_all'>Добавить</button>
         </form>
         <form action='/profile/class' method='POST' className='addteach_forma'>
-           <input type='text' name='class' placeholder='Добавить класс' required />
+           <input type='text' name='class' placeholder="Добавить класс '10a'" required />
            <button type='submit' className='but_all'>Добавить</button>
         </form>
         <form action='/profile/school' method='POST' className='addteach_forma'>
-           <input type='text' name='school' placeholder='Добавить универ' required />
+           <input type='text' name='school' placeholder='Добавить университет' required />
            <button type='submit' className='but_all'>Добавить</button>
         </form>
         <form action='/profile/city' method='POST' className='addteach_forma'>
@@ -30,7 +30,7 @@ class AddTeacher extends React.Component {
            <button type='submit' className='but_all'>Добавить</button>
         </form>
         <form action='/profile/subject' method='POST' className='addteach_forma'>
-           <input type='text' name='subject' placeholder='Добавить/Изменить язык' required />
+           <input type='text' name='subject' placeholder="Добавить язык 'spanish'" required />
            <button type='submit' className='but_all'>Добавить</button>
         </form>
         <NavLink to='/profile' id='cancel5'>Отменить</NavLink>

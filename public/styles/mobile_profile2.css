@@ -39,7 +39,7 @@
       border-radius: 29px;
       border: 1px solid;
       padding: 20px;
-      width: 85%;
+      width: 111%;
       top: 16px;
       font-size: 15px;
       text-align: center;
@@ -81,8 +81,8 @@
     font-size: 16px;
   }
   .give_feed {
-    top: 353px !important;
-    left: -217px;
+    top: 362px !important;
+    left: -153px;
   }
   #rait {
     height: 200px;
@@ -173,11 +173,14 @@
       border-radius: 29px;
       border: 1px solid;
       padding: 20px;
-      width: 93%;
+      width: 112%;
       top: 16px;
       font-size: 15px;
       text-align: center;
       height: 100px;
+    }
+    .wrap_study_data:nth-child(8) {
+      width: 217%
     }
   .wrap_study_data {
     padding: 0 0 6px;
@@ -186,7 +189,7 @@
     height: 900px;
   }
   .feed_get {
-    left: 38px;
+    left: 11%;
     top: 10px;
   }
   .prop {
@@ -215,8 +218,8 @@
     font-size: 16px;
   }
   .give_feed {
-    top: 362px !important;
-    left: -245px;
+    top: 355px !important;
+    left: -178px;
   }
   #rait {
     height: 200px;

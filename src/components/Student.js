@@ -68,7 +68,7 @@ check4 = () => {
                  <input type='text' name='email' placeholder='Ваш email'/>
                    <input type='text' name='city' placeholder='Город проживания'/>
                     <input type='text' name='school' placeholder='Название университета/школы(если есть)'/>
-                      <input type='text' name='subject' placeholder='Предмет подготовки'/>
+                      <input type='text' name='subject' placeholder="Язык подготовки, например 'spanish'"/>
                      <input type='text' name='teacher' placeholder='Преподаватель(если есть)'/>
                     <input  type='text' name='class' placeholder='Класс/группа(если есть)'/>
                   <input type='text' name='password' placeholder='Пароль'/>

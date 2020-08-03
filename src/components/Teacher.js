@@ -71,7 +71,7 @@ check3 = () => {
                   <input type='text' name='city' placeholder='Город преподавания'/>
                   <input type='text' name='telephone' placeholder='Контактный номер' required/>
                   <input type='text' name='school' placeholder='Название университета/школы(если есть)'/>
-                 <input type='text' name='subject' placeholder='Предмет подготовки'/>
+                 <input type='text' name='subject' placeholder="Язык преподавания, например 'spanish'"/>
                 <input type='password' name='password' placeholder='Пароль'/>
               <input type='password' name='confirm' placeholder='Подтвердите пароль'/>
              <input type='hidden' name='teach' value='teacher' />

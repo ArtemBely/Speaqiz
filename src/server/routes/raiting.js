@@ -50,7 +50,7 @@ router.post('/', async (req, res, next) => {
   var rait = req.body.rait;
 
   let user = req.user;
-  user.timestamp = new Date().toDateString();
+  user.timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
   let teacher = user.teacher;
 
   let exactTeacher = await Teach.find({teach: 'teacher'});

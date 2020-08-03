@@ -7,6 +7,9 @@
           -ms-flex-pack: start;
               justify-content: start;
     }
+    .wrap_study_data:nth-child(5) {
+      width: 175%;
+    }
   .prof_image {
     top: -175px;
     left: 54%;
@@ -224,6 +227,9 @@
     -webkit-box-pack: normal;
         -ms-flex-pack: normal;
             justify-content: normal;
+  }
+  .wrap_study_data:nth-child(5) {
+    width: 175%;
   }
   .prof_image {
     top: -171px;
@@ -450,6 +456,9 @@
       -webkit-box-pack: normal;
           -ms-flex-pack: normal;
               justify-content: normal;
+    }
+    .wrap_study_data:nth-child(5) {
+      width: 175%;
     }
   .prof_image {
     top: -139px;

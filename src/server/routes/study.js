@@ -57,7 +57,7 @@ router.post('/', (req, res, done) => {
   var confirm = req.body.confirm;
   var scores = req.body.scores;
   var completed = req.body.completed;
-  var timestamp = new Date().toDateString();
+  var timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
 
   req.checkBody('name', 'Поле должно быть заполнено').notEmpty();
   req.checkBody('lastname', 'Поле должно быть заполнено').notEmpty();

@@ -116,6 +116,7 @@ app.get('/', notLoggedIn, (req, res, next) => {
   .then(data => {
     const cond = req.isAuthenticated();
     const user = req.user;
+    console.log(new Date().toLocaleString("en-AU"));
     const mark = renderToString(
       <StaticRouter>
          <Main />
@@ -222,4 +223,4 @@ app.use((req, res, next) => {  //<-- заменить если появится 
      next (err);
 });
 
-app.listen(port, () => { console.log('Connected!'); })
+app.listen(8888, () => { console.log('Connected!'); })

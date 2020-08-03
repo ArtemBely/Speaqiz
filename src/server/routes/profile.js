@@ -78,7 +78,7 @@ router.post('/', async (req, res, next) => {
 
   let user = req.user;
   user.teacher = req.body.teacher;
-  user.timestamp = new Date().toDateString();
+  user.timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
 
   req.checkBody('teacher', "Графа должна содержать электронный адрес преподавателя и быть формата '@mail'").isEmail();
   var errors = req.validationErrors();
@@ -123,7 +123,7 @@ router.post('/', async (req, res, next) => {
 router.post('/class', async (req, res, next) => {
    let user = req.user;
    user.class = req.body.class;
-   user.timestamp = new Date().toDateString();
+   user.timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
 
    try {
      user = await user.save();
@@ -138,7 +138,7 @@ router.post('/class', async (req, res, next) => {
 router.post('/school', async (req, res, next) => {
    let user = req.user;
    user.school = req.body.school;
-   user.timestamp = new Date().toDateString();
+   user.timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
 
    try {
      user = await user.save();
@@ -153,7 +153,7 @@ router.post('/school', async (req, res, next) => {
 router.post('/city', async (req, res, next) => {
    let user = req.user;
    user.city = req.body.city;
-   user.timestamp = new Date().toDateString();
+   user.timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
 
    try {
      user = await user.save();
@@ -167,7 +167,7 @@ router.post('/city', async (req, res, next) => {
 
 router.post('/subject', async (req, res, next) => {
    let user = req.user;
-   user.timestamp = new Date().toDateString();
+   user.timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
    user.subject.push(req.body.subject)
    try {
      user = await user.save();

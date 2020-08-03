@@ -116,7 +116,7 @@ router.post('/:id/:pathParam1', async (req, res, next) => {
 
   let user = req.user;
   user.scores = user.scores + 1;
-  user.timestamp = new Date().toDateString();
+  user.timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
   user.completed.push(req.body.completed);
 
   try {

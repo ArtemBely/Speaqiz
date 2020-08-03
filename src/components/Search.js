@@ -111,7 +111,7 @@ forma = () => {
     return (
       <p className='wrap_myForm'>
         <form action='/searchteacher' method='GET' className='find_forma'>
-            <input type='text' name='subject' ref={this.one} placeholder='Язык' required/>
+            <input type='text' name='subject' ref={this.one} placeholder="Язык, например 'spanish'" required/>
               <input type='text' name='city' ref={this.two} placeholder='Город' />
             <button onClick={this.fin} id='but12'>Найти</button>
         </form>

@@ -2412,6 +2412,12 @@ body {
   grid-row: 1 / 5;
   left: 26%;
   position: relative;
+  height: 180px;
+  overflow-y: scroll;
+}
+.wrap_study_data:nth-child(5)::-webkit-scrollbar {
+  background: transparent;
+  width: 0;
 }
 .wrap_study_data:nth-child(6) {
   left: 59px;
@@ -4304,6 +4310,10 @@ body {
     height: 16px;
     z-index: 1000;
   }
+  .form_student1 > input {
+    font-family: 'Circe Regular';
+    font-size: 12px;
+  }
   .signin2 {
     display: none;
   }
@@ -4470,6 +4480,10 @@ body {
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .form_student1 > input {
+    font-family: 'Circe Regular';
+    font-size: 14px;
   }
   .signin2 {
     display: none;
@@ -4639,6 +4653,10 @@ body {
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .form_student1 > input {
+    font-family: 'Circe Regular';
+    font-size: 14px;
   }
   .signin2 {
     display: none;
@@ -5025,9 +5043,10 @@ body {
   }
   .darth {
     font-size: 16px;
-    width: 97%;
-    left: 26%;
+    width: 84%;
+    left: 24%;
     padding: 12px;
+    overflow: hidden;
   }
     .all_fields:nth-child(4) {
       position: relative;
@@ -5126,7 +5145,7 @@ body {
   .darth {
     font-size: 16px;
     width: 97%;
-    left: 26%;
+    left: 23%;
     padding: 12px;
     height: 300px;
   }
@@ -5908,7 +5927,7 @@ body {
     top: 83px !important;
     left: 0;
     font-size: 15px;
-    height: 656px;
+    height: 675px;
     width: 100%;
     color: white;
     background-color: #00738E;
@@ -5965,8 +5984,8 @@ body {
   }
   #nav_rait2 {
     font-size: 19px;
-    left: 31%;
-    top: 23px;
+    left: 36%;
+    top: 2px;
     color: white;
   }
   .wrap_myraiting {
@@ -7084,7 +7103,7 @@ body {
     grid-template-columns: 1fr;
   }
   .each_audio {
-    display: -ms-grid;
+    display: -ms-grid; 
     display: grid;
     left: -28px;
     top: 30px
@@ -7208,7 +7227,7 @@ body {
     top: 250px;
     left: 16%;
     opacity: 0;
-    z-index: 0;
+    z-index: -10;
   }
   .each_audio {
     top: 100px;
@@ -7288,7 +7307,7 @@ body {
     top: 250px;
     left: 16%;
     opacity: 0;
-    z-index: 0;
+    z-index: -10;
   }
   .each_audio {
     top: 100px;
@@ -7319,7 +7338,7 @@ body {
     font-size: 15px;
   }
   .task_special {
-    height: 1050px;
+    height: 1150px;
   }
   .gen_but {
     height: 45px;
@@ -7365,7 +7384,7 @@ body {
     top: 250px;
     left: 16%;
     opacity: 0;
-    z-index: 0;
+    z-index: -10;
   }
   .each_audio {
     top: 100px;
@@ -7953,6 +7972,9 @@ body {
           -ms-flex-pack: start;
               justify-content: start;
     }
+    .wrap_study_data:nth-child(5) {
+      width: 175%;
+    }
   .prof_image {
     top: -175px;
     left: 54%;
@@ -8171,6 +8193,9 @@ body {
         -ms-flex-pack: normal;
             justify-content: normal;
   }
+  .wrap_study_data:nth-child(5) {
+    width: 175%;
+  }
   .prof_image {
     top: -171px;
     left: 65%;
@@ -8210,7 +8235,7 @@ body {
     left: 88%;
   }
   #close1 {
-    left: 122px;
+    left: 140px;
     top: -45px;
   }
   #bio2 {
@@ -8309,6 +8334,10 @@ body {
     font-size: 12px;
     height: 35px;
   }
+  #fo {
+    position: relative;
+    left: -20px;
+  }
   .sep {
     opacity: 0;
     z-index: -1;
@@ -8392,6 +8421,9 @@ body {
       -webkit-box-pack: normal;
           -ms-flex-pack: normal;
               justify-content: normal;
+    }
+    .wrap_study_data:nth-child(5) {
+      width: 175%;
     }
   .prof_image {
     top: -139px;
@@ -8649,7 +8681,7 @@ body {
       border-radius: 29px;
       border: 1px solid;
       padding: 20px;
-      width: 85%;
+      width: 111%;
       top: 16px;
       font-size: 15px;
       text-align: center;
@@ -8691,8 +8723,8 @@ body {
     font-size: 16px;
   }
   .give_feed {
-    top: 353px !important;
-    left: -217px;
+    top: 362px !important;
+    left: -153px;
   }
   #rait {
     height: 200px;
@@ -8783,11 +8815,14 @@ body {
       border-radius: 29px;
       border: 1px solid;
       padding: 20px;
-      width: 93%;
+      width: 112%;
       top: 16px;
       font-size: 15px;
       text-align: center;
       height: 100px;
+    }
+    .wrap_study_data:nth-child(8) {
+      width: 217%
     }
   .wrap_study_data {
     padding: 0 0 6px;
@@ -8796,7 +8831,7 @@ body {
     height: 900px;
   }
   .feed_get {
-    left: 38px;
+    left: 11%;
     top: 10px;
   }
   .prop {
@@ -8825,8 +8860,8 @@ body {
     font-size: 16px;
   }
   .give_feed {
-    top: 353px !important;
-    left: -245px;
+    top: 355px !important;
+    left: -178px;
   }
   #rait {
     height: 200px;

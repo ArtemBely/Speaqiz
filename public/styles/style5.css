@@ -392,6 +392,12 @@
   grid-row: 1 / 5;
   left: 26%;
   position: relative;
+  height: 180px;
+  overflow-y: scroll;
+}
+.wrap_study_data:nth-child(5)::-webkit-scrollbar {
+  background: transparent;
+  width: 0;
 }
 .wrap_study_data:nth-child(6) {
   left: 59px;
