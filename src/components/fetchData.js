@@ -5,7 +5,7 @@ import passport from 'passport';
 
 async function getClass(id) {
 
-  return await axios.get(`https://speaqiz.ru/api/separate/${id}`)
+  return await axios.get(`http://localhost:8888/api/separate/${id}`)
   .then(res => {
     let info = res.data;
     return info;

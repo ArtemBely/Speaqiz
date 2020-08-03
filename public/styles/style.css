@@ -32,6 +32,17 @@ body {
   width: 500px;
   height: 500px;
 }
+.awards2 {
+  width: 80px !important;
+}
+.wrap_foot44 {
+  top: -106px !important;
+}
+.wrap_champ {
+  font-family: 'Circe Light';
+  letter-spacing: 1px;
+  color: white;
+}
 .mobile_menu {
   display: none;
 }

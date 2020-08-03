@@ -34,7 +34,7 @@ class Rait extends React.Component {
 
   rait = () => {
     if(this.state.rait && this.state.user) {
-      let arr = [];
+      let exarr = [];
 
       let zero = this.state.rait.student;
       let one = zero.filter(one => one.teacher == this.state.user.email); // -> array of students
@@ -69,17 +69,24 @@ class Rait extends React.Component {
       let ind5 = check.indexOf(max5);
       let champ5 = one[ind5];
 
-      arr.push(champ1, champ2, champ3, champ4, champ5);
+      exarr.push(champ1, champ2, champ3, champ4, champ5);
+      let arr = exarr.filter(ar => ar != undefined);
       console.log(arr);
 
       return(
         <p className='wrap_champ'>
         <NavLink to='/profile' className='nav_to'><img src={arrow} id='arrow'/>Главная</NavLink>
         <p id='place1'></p>
-         <img src ={gold} className='awards2' id='gold'/>
-         <img src ={silver} className='awards2' id='silver'/>
-         <img src ={bronze} className='awards2' id='bronze'/>
-           {arr.map((champ, index) => (
+         <img src ={gold} className='awards2' id='gold' style={{
+           display: (arr.length >= 1 ? 'block' : 'none')
+         }}/>
+         <img src ={silver} className='awards2' id='silver' style={{
+           display: (arr.length >= 2 ? 'block' : 'none')
+         }}/>
+         <img src ={bronze} className='awards2' id='bronze' style={{
+           display: (arr.length >= 3 ? 'block' : 'none')
+         }}/>
+           {arr.length > 0 ? arr.map((champ, index) => (
              <p className='each_champ'>
               <p id='ind'>{index + 1}</p>
                 <p>Имя: {champ.name}</p>
@@ -88,7 +95,7 @@ class Rait extends React.Component {
                   <p className='lastn'>Баллы: {champ.scores}</p>
                 <p className='lastn uch'>Учебное заведение: {champ.school}</p>
              </p>
-           ))}
+           )) : 'Ваши ученики пока не выполняли задания'}
         </p>
       )
     }

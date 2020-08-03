@@ -32,6 +32,14 @@ body {
   width: 500px;
   height: 500px;
 }
+.wrap_foot44 {
+  top: -120px;
+}
+.wrap_champ {
+  font-family: 'Circe Light';
+  letter-spacing: 1px;
+  color: white;
+}
 .mobile_menu {
   display: none;
 }
@@ -4310,6 +4318,9 @@ body {
     height: 16px;
     z-index: 1000;
   }
+  .wrap_foot44 {
+    top: -120px;
+  }
   .form_student1 > input {
     font-family: 'Circe Regular';
     font-size: 12px;
@@ -4480,6 +4491,9 @@ body {
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .wrap_foot44 {
+    top: -120px;
   }
   .form_student1 > input {
     font-family: 'Circe Regular';
@@ -4653,6 +4667,9 @@ body {
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .wrap_foot44 {
+    top: -120px;
   }
   .form_student1 > input {
     font-family: 'Circe Regular';

@@ -7,6 +7,9 @@
     height: 16px;
     z-index: 1000;
   }
+  .wrap_foot44 {
+    top: -106px !important;
+  }
   .form_student1 > input {
     font-family: 'Circe Regular';
     font-size: 12px;
@@ -177,6 +180,9 @@
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .wrap_foot44 {
+    top: -106px !important;
   }
   .form_student1 > input {
     font-family: 'Circe Regular';
@@ -350,6 +356,9 @@
     font-size: 15px;
     height: 16px;
     z-index: 1000;
+  }
+  .wrap_foot44 {
+    top: -106px !important;
   }
   .form_student1 > input {
     font-family: 'Circe Regular';
