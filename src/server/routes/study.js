@@ -57,6 +57,7 @@ router.post('/', (req, res, done) => {
   var confirm = req.body.confirm;
   var scores = req.body.scores;
   var completed = req.body.completed;
+  var locked = req.body.locked;
   var timestamp = new Date().getDate() + '.' + new Date().getMonth() + '.' + new Date().getFullYear();
 
   req.checkBody('name', 'Поле должно быть заполнено').notEmpty();
@@ -147,7 +148,8 @@ router.post('/', (req, res, done) => {
     password: password,
     scores: scores,
     completed: completed,
-    timestamp: timestamp
+    timestamp: timestamp,
+    locked: locked
   });
 
   Teach.createUser(newUser, function(err, user) {

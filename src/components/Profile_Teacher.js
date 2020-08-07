@@ -62,8 +62,10 @@ appear = () => {
   if(this.state.user) {
     return (
       <p className='classes'>
-         {this.state.user.padavans.map((padavans) => (
-           <a href={'/separate/' + padavans._id} id='pad1'><p className='com_classes'>{padavans.padavans}</p></a>
+         {this.state.user.padavans.map((padavans, index) => (
+           <a href={'/separate/' + padavans._id} id='pad1' style={{
+             display: (index === 0 ? 'none' : 'block')
+           }}><p className='com_classes'>{padavans.padavans}</p></a>
          ))}
       </p>
     )
@@ -74,9 +76,11 @@ thema = () => {
   if(this.state.user) {
     return(
       <p className='wrap_themes'>
-       {this.state.user.themes.map(use => (
+       {this.state.user.themes.map((use, index) => (
 
-             <NavLink to={'/themes/' + use.themes} className='themes5'>
+             <NavLink to={'/themes/' + use.themes} className='themes5' style={{
+               display: (typeof use === 'string' ? 'none' : 'block')
+             }}>
              <p className='wrap_themes2'>{use.themes}</p>
              </NavLink>
 
@@ -89,40 +93,41 @@ thema = () => {
   render() {
     return (
       <p className='wrap_teach2'>
+
       <Mobile />
        {this.success()}
-        <p className='teach'>
-            <p className='common'>
-            <img src={this.state.user && this.state.user.profilePhoto ? this.state.user.profilePhoto : person}
-            className='prof_image' />
-            <Route exact path='/addphoto' component={AddPhoto} />
-            </p>
 
-               <NavLink to='/addphoto' className='addphoto' id='cha2' style={{
-                 opacity: (window.location.pathname == '/profile' || window.location.pathname == '/telegram' ? 1 : 0),
-                 zIndex: (window.location.pathname == '/profile' || window.location.pathname == '/telegram' ? 1 : -1)
-                 }}>
-                 {this.state.user && this.state.user.profilePhoto ? 'Изменить фото' : 'Добавить фото'}
-               </NavLink>
+       <p className='teach'>
+           <p className='common'>
+           <img src={this.state.user && this.state.user.profilePhoto ? this.state.user.profilePhoto : person}
+           className='prof_image' />
+           <Route exact path='/addphoto' component={AddPhoto} />
+           </p>
+
+              <NavLink to='/addphoto' className='addphoto' id='cha2' style={{
+                opacity: (window.location.pathname == '/profile' || window.location.pathname == '/telegram' ? 1 : 0),
+                zIndex: (window.location.pathname == '/profile' || window.location.pathname == '/telegram' ? 1 : -1)
+                }}>
+                {this.state.user && this.state.user.profilePhoto ? 'Изменить фото' : 'Добавить фото'}
+              </NavLink>
 
 
-            <NavLink to='/addbio' className='common2'>
-                Добавить информацию о себе
-            </NavLink>
-            <Route exact path='/addbio' component={AddBio} />
+           <NavLink to='/addbio' className='common2'>
+               Добавить информацию о себе
+           </NavLink>
+           <Route exact path='/addbio' component={AddBio} />
 
-            <a href='/profile/logout' id='logout'>Выйти</a>
-            <p className='info_about'>
-                <p className='marg'>Имя: {this.state.user.name}</p>
-                  <p className='marg'>Фамилия: {this.state.user.lastname}</p>
-                    <p className='marg'>Город: {this.state.user.city}</p>
-                   <p className='marg conn'>{this.state.user ? 'Связаться со мной: ' + this.state.user.telephone : null}</p>
-                <p id='bio2' style={{
-                  opacity: (window.location.pathname === '/addbio' ? 0 : 1)
-                }}>Bio: {this.state.user ? this.state.user.bio : null}</p>
-            </p>
-        </p>
-
+           <a href='/profile/logout' id='logout'>Выйти</a>
+           <p className='info_about'>
+               <p className='marg'>Имя: {this.state.user.name}</p>
+                 <p className='marg'>Фамилия: {this.state.user.lastname}</p>
+                   <p className='marg'>Город: {this.state.user.city}</p>
+                  <p className='marg conn'>{this.state.user ? 'Связаться со мной: ' + this.state.user.telephone : null}</p>
+               <p id='bio2' style={{
+                 opacity: (window.location.pathname === '/addbio' ? 0 : 1)
+               }}>Bio: {this.state.user ? this.state.user.bio : null}</p>
+           </p>
+       </p>
             <p className='add'>
               <p className='add1' id='add1'>
                 <NavLink to='/add' id='add_cl'>Добавить класс / Ученика</NavLink>
@@ -149,7 +154,7 @@ thema = () => {
                 {this.thema()}
               </p>
             </p>
-            <p className='wrap_for_mobile'><Footer /></p>
+          <p className='wrap_for_mobile'><Footer /></p>
       </p>
     )
   }

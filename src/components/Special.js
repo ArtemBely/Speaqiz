@@ -236,13 +236,21 @@ detect = () => {
             display:(fiv.var3 ? 'none' : 'flex')
              }}>
              <input name='completed' type='hidden' value={fiv._id} />
+             <input type='hidden' name='checking' value={this.state.count} />
              <input type='text' name='answer' id='inp_2' ref={this.inp2} onChange={this.go2} required />
             <button type='submit' id='but11' ref={this.but2} onClick={(event) => {
               if(this.inp2.current.value.toLowerCase() != fiv.right.toLowerCase()) {
-                event.preventDefault();
                 this.modal.current.classList.add('gri');
-                this.setState({ count: this.state.count + 1 });
-              }
+                 this.setState({ count: this.state.count + 1 });
+
+                  if(this.state.count < 1) {
+                    event.preventDefault();
+                    console.log(this.state.count);
+                  }
+                  else {
+                    alert('Задание заблокировано до завтра');
+                 }
+               }
               else {
                 alert('Правильно!');
                 console.log(this.inp2.current.value);
@@ -252,6 +260,7 @@ detect = () => {
 
         <form action={'/students/' + this.props.match.params.id + '/' + this.props.match.params.pathParam1} method='POST'>
          <input type='hidden' value={fiv.right} />
+         <input type='hidden' name='checking' value={this.state.count} />
          <input name='completed' type='hidden' value={fiv._id} />
            <p ref={this.gogo} onClick={(event) => {
              if(this.state.check) {
@@ -261,8 +270,18 @@ detect = () => {
                event.preventDefault();
                this.modal.current.classList.add('gri');
                this.setState({ count: this.state.count + 1 });
+
+                   if(this.state.count < 1) {
+                     event.preventDefault();
+                     console.log(this.state.count);
+                   }
+                   else {
+                     alert('Задание заблокировано до завтра');
+                  }
+                  
+               console.log(this.state.count);
              }
-             }}>
+            }}>
            <button type='submit' ref={this.but} className='gen_but' style={{
               display:(fiv.var3 ? 'flex' : 'none')
             }}>Ответить

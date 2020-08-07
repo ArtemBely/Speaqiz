@@ -11,7 +11,7 @@ class Raiting extends React.Component{
 
     super()
 
-    this.state ={
+    this.state = {
       clicked: false,
       raiting: 1
     }

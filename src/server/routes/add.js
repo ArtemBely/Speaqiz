@@ -33,7 +33,10 @@ router.post('/', async (req, res, next) => {
   });
 
   user.padavans.push(cla);
-
+  let check = user.themes.filter(use => typeof use === 'object');
+  user.themes = check;
+  console.log(check);
+  
     try {
       user = await user.save();
       console.log(user);

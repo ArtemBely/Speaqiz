@@ -75,7 +75,7 @@ class Rait extends React.Component {
 
       return(
         <p className='wrap_champ'>
-        <NavLink to='/profile' className='nav_to'><img src={arrow} id='arrow'/>Главная</NavLink>
+          <p className='wrap_nav2'><NavLink to='/profile' className='nav_to'><img src={arrow} id='arrow'/>Главная</NavLink></p>
         <p id='place1'></p>
          <img src ={gold} className='awards2' id='gold' style={{
            display: (arr.length >= 1 ? 'block' : 'none')
@@ -125,28 +125,28 @@ class Rait extends React.Component {
 
     return(
       <p className='com_wrap_champ'>
-      <Mobile />
-       <p className='padavans_rait'>Рейтинг моих учеников / студентов</p>
-        {this.rait()}
-        <p className='wrap_myraiting'>
-          <p className='myraiting'>Мой рейтинг</p>
-           {this.info()}
-           <NavLink to='/feedback' id='review_all'><img src={review} id='review' style={{
-             opacity: (this.state.rait && this.state.user ? 1 : 0)
-           }} /><p id='look'>Посмотреть отзывы</p></NavLink>
-           <Route exact path='/feedback' component={FeedBack} />
-           <Route exact path='/rait'>
-           <p className='description'>
-             *Данная статистка основана на отзывах Ваших учеников, которых Вы учите или когда-либо учили
-             и носит информативный характер, а также видна всем лицам, подключенным к платформе и желающим изучать
-             иностранный язык.
-           </p>
-           <p className='description_student'>
-             *Статистика Ваших лучших студентов по всем заданиям, Вы можете использовать ее при награждении и
-             всевозможном поощрении Ваших учеников.
-           </p>
-           </Route>
-        </p>
+        <Mobile />
+         <p className='padavans_rait'>Рейтинг моих учеников / студентов</p>
+          {this.rait()}
+          <p className='wrap_myraiting'>
+            <p className='myraiting'>Мой рейтинг</p>
+             {this.info()}
+             <NavLink to='/feedback' id='review_all'><img src={review} id='review' style={{
+               opacity: (this.state.rait && this.state.user ? 1 : 0)
+             }} /><p id='look'>Посмотреть отзывы</p></NavLink>
+             <Route exact path='/feedback' component={FeedBack} />
+             <Route exact path='/rait'>
+             <p className='description'>
+               *Данная статистка основана на отзывах Ваших учеников, которых Вы учите или когда-либо учили
+               и носит информативный характер, а также видна всем лицам, подключенным к платформе и желающим изучать
+               иностранный язык.
+             </p>
+             <p className='description_student'>
+               *Статистика Ваших лучших студентов по всем заданиям, Вы можете использовать ее при награждении и
+               всевозможном поощрении Ваших учеников.
+             </p>
+             </Route>
+         </p>
       </p>
     )
   }

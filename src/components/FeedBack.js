@@ -36,8 +36,8 @@ class Add extends React.Component {
   render() {
     return(
       <Spring
-          from={{opacity: 0, top: 60}}
-          to={{opacity: 1, top: 70}}
+          from={{opacity: 0, top: 20}}
+          to={{opacity: 1, top: 27}}
           config={{duration: 400}}>
           {props =>
           <p style={props} className='feedBack'>

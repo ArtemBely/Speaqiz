@@ -41,9 +41,15 @@ detect = () => {
              display: (index > 0 ? 'flex' : 'none')
              }}>
              <p className='ta'>задание &nbsp;{index}</p>
-             <NavLink to={'/students/' + this.props.match.params.id + '/' + this.props.match.params.pathParam1 + '/' + fiv._id} ref={this.suc} className='each_audio1 spec' style={{
+             <NavLink to={this.state.user.locked.filter(lock => lock.name == fiv._id && new Date().getDate() === lock.date).length > 0 ?
+               '/students/' + this.props.match.params.id + '/' + this.props.match.params.pathParam1 :
+               '/students/' + this.props.match.params.id + '/' + this.props.match.params.pathParam1 + '/' + fiv._id} ref={this.suc} className='each_audio1 spec' style={{
                backgroundColor: (this.state.user.completed.filter(comp => comp == fiv._id).length == 1 ? 'green' : '#1E3657')
-             }}>{this.state.user.completed.filter(comp => comp == fiv._id).length == 1 ? 'ВЫПОЛНЕНО!' : fiv.title2}<img src={this.state.user.completed.filter(comp => comp == fiv._id).length == 1 ? done : null} className='im_done' /></NavLink>
+             }}>{this.state.user.completed.filter(comp => comp == fiv._id).length == 1 ?
+                'ВЫПОЛНЕНО!' :
+                this.state.user.locked.filter(lock => lock.name == fiv._id && new Date().getDate() === lock.date).length > 0 ?
+                'Заблокировано до ' + (new Date().getDate() + 1) + '.' + new Date().getMonth() + '.' + new Date().getFullYear() :
+                fiv.title2}<img src={this.state.user.completed.filter(comp => comp == fiv._id).length == 1 ? done : null} className='im_done' /></NavLink>
            </p>
          ))}
       </p>

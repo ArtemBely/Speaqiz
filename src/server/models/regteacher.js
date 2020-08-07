@@ -22,7 +22,8 @@ const teachSchema = new Schema ({
   raiting: {type: Array},
   completed: {type: Array},
   timestamp: {type: String}, 
-  bio: {type: String}
+  bio: {type: String},
+  locked: {type: Array}
 });
 
 module.exports = mongoose.model('Teach', teachSchema);

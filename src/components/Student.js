@@ -77,8 +77,9 @@ check4 = () => {
               <input type='hidden' name='scores' value={0} />
             <input type='hidden' name='completed' value='' />
             <input type='hidden' name='timestamp' />
-            <button type='submit' className='but1'>Отправить</button>
-         </form>
+              <input type='hidden' name='locked' />
+             <button type='submit' className='but1'>Отправить</button>
+           </form>
       </p>
     )
   }

@@ -49,6 +49,12 @@ class Main extends React.Component {
 
   super = () => {
     if(this.state.data) {
+      const namer = {
+        name: 'Johnson',
+        greed: function() {
+          return(5 * 10);
+        }
+      }
       return(
         <p className='main'>
 

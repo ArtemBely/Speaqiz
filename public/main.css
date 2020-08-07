@@ -1059,11 +1059,11 @@ body {
     background-color: #00738E;
     width: 100%;
     position: relative;
-    left: 17%;
+    left: 4%;
 }
 .wrap_themes2 {
     background-color: #00738E;
-    width: 200px;
+    width: 250px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2208,10 +2208,10 @@ body {
   line-height: 62px;
 }
 .description {
-  top: 90px;
+  top: 11px;
 }
 .description_student {
-  top: 160px;
+  top: 24px;
 }
 #review {
   width: 160px;
@@ -3927,7 +3927,11 @@ body {
     font-size: 20px;
   }
   .nav_to {
-    top: -70px;
+    top: 27px;
+  }
+  .wrap_nav2 {
+    top: -88px;
+    position: relative;
   }
   #gold {
     top: 130px;

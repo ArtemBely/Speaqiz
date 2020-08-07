@@ -39,10 +39,20 @@ class Mobile extends React.Component {
  appear = () => {
    if(this.state.user) {
      return(
-       <p className='wrap_span' onClick={this.move} ref={this.close}>
-          <p className='close1' ref={this.one} id='close_part1'></p>
-           <p className='close1' ref={this.two} id='close_part2'></p>
-          <p className='close1' ref={this.three} id='close_part3'></p>
+       <p className='mobile_menu' ref={this.mobi}>
+         <p className='wrap_span' onClick={this.move} ref={this.close}>
+            <p className='close1' ref={this.one} id='close_part1'></p>
+             <p className='close1' ref={this.two} id='close_part2'></p>
+            <p className='close1' ref={this.three} id='close_part3'></p>
+         </p>
+         <p className='wrap_mobile_links'>
+           <NavLink to={this.state.user && this.state.user.teach === 'student' ? '/searchteacher' : '/profile'} className='links_mobile'>{this.state.user && this.state.user.teach === 'student' ? 'Найти учителя' : 'Главная'}</NavLink>
+              <NavLink to='/myclasses' className='links_mobile' style={{
+                display: (this.state.user && this.state.user.teach === 'student' ? 'block' : 'none')
+              }}>Мои Классы</NavLink>
+           <NavLink to={this.state.user && this.state.user.teach === 'student' ? '/myraiting' : '/rait'} className='links_mobile'>Мой рейтинг</NavLink>
+         </p>
+
        </p>
      )
    }
@@ -56,17 +66,7 @@ componentDidMount() {
 
   render() {
     return (
-      <p className='mobile_menu' ref={this.mobi}>
-      {this.appear()}
-        <p className='wrap_mobile_links'>
-          <NavLink to={this.state.user && this.state.user.teach === 'student' ? '/searchteacher' : '/profile'} className='links_mobile'>{this.state.user && this.state.user.teach === 'student' ? 'Найти учителя' : 'Главная'}</NavLink>
-             <NavLink to='/myclasses' className='links_mobile' style={{
-               display: (this.state.user && this.state.user.teach === 'student' ? 'block' : 'none')
-             }}>Мои Классы</NavLink>
-          <NavLink to={this.state.user && this.state.user.teach === 'student' ? '/myraiting' : '/rait'} className='links_mobile'>Мой рейтинг</NavLink>
-        </p>
-
-      </p>
+      <p>{this.appear()}</p>
     )
   }
 }
