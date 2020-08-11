@@ -150,7 +150,7 @@ function notLoggedIn(req, res, next) {
   if(!req.isAuthenticated()) {
     return next();
   }
-  res.redirect('/profile');
+    res.redirect('/profile');
 }
 /*function ignoreFavicon(req, res, next) {
   if (req.originalUrl === '/favicon.ico') {
